@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#e8e8e8">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/refreshlayout"
+        android:layout_marginTop="2dp"
+        android:background="@color/nliveo_white"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_medium"
+            android:textSize="@dimen/abc_text_size_subtitle_material_toolbar"
+            android:textColor="@color/materialbluedark"
+            android:text="Update My Status"
+            android:id="@+id/refresh"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:layout_marginBottom="@dimen/margin_medium"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/abc_text_size_subtitle_material_toolbar"
+            android:textColor="@color/materialbluedark"
+            android:text="0"
+            android:layout_alignParentRight="true"
+            android:id="@+id/num"
+            android:layout_marginRight="@dimen/margin_medium"
+            android:layout_marginTop="@dimen/margin_medium"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/abc_text_size_subtitle_material_toolbar"
+            android:textColor="@color/materialbluedark"
+            android:text="Total:"
+            android:layout_toLeftOf="@+id/num"
+            android:layout_marginRight="@dimen/margin_small"
+            android:layout_marginTop="@dimen/margin_medium"
+
+            />
+
+
+</RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/statuslayout"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:background="@color/nliveo_white"
+        android:layout_below="@+id/refreshlayout"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_medium"
+            android:textSize="@dimen/abc_text_size_subtitle_material_toolbar"
+            android:text="Current Status: "
+            android:textColor="@color/nliveo_black"
+            android:id="@+id/currentStatus"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:layout_marginBottom="@dimen/margin_medium"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/abc_text_size_subtitle_material_toolbar"
+            android:text="n/a"
+            android:id="@+id/status"
+            android:textColor="@color/nliveo_black"
+            android:layout_toRightOf="@id/currentStatus"
+            android:layout_alignBottom="@+id/currentStatus"
+
+
+            />
+
+
+
+
+    </RelativeLayout>
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dashboadlistview"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/statuslayout" />
+</RelativeLayout>

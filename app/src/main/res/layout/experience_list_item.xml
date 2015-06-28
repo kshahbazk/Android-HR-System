@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/exp"
+        android:background="@color/nliveo_blue_gray_colorPrimary"
+        android:layout_marginLeft="@dimen/margin_small"
+        android:layout_marginTop="@dimen/margin_small"
+        android:layout_marginRight="@dimen/margin_small"
+        android:layout_centerHorizontal="true">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Experience"
+            android:textColor="@color/black"
+            android:textSize="@dimen/abc_text_size_subhead_material"
+            android:layout_marginTop="@dimen/margin_small"
+            android:layout_marginLeft="@dimen/margin_medium"
+            android:id="@+id/ProffesionLabel"
+            />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:id="@+id/companypic"
+            android:src="@drawable/ic_domain_black_48dp"
+            android:layout_marginLeft="@dimen/margin_small"
+            android:layout_alignBottom="@+id/ProffesionLabel"
+            android:layout_toRightOf="@+id/ProffesionLabel"
+            android:layout_toEndOf="@+id/ProffesionLabel" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/abc_text_size_caption_material"
+            android:text="Current Company: "
+            android:textColor="@color/nliveo_white"
+            android:layout_marginTop="@dimen/margin_small"
+            android:layout_marginLeft="@dimen/margin_medium"
+            android:id="@+id/currentCompany"
+            android:layout_below="@+id/ProffesionLabel"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/abc_text_size_caption_material"
+            android:text="Current Title: "
+            android:layout_marginTop="@dimen/margin_small"
+            android:textColor="@color/nliveo_white"
+            android:layout_marginLeft="@dimen/margin_medium"
+            android:id="@+id/currentTitle"
+            android:layout_below="@+id/currentCompany"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/abc_text_size_caption_material"
+            android:text="Start Year: "
+            android:layout_marginTop="@dimen/margin_small"
+            android:textColor="@color/nliveo_white"
+            android:layout_marginLeft="@dimen/margin_medium"
+            android:id="@+id/startDate"
+            android:layout_below="@+id/currentTitle"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/abc_text_size_caption_material"
+            android:text="End Year: "
+            android:layout_marginTop="@dimen/margin_small"
+            android:textColor="@color/nliveo_white"
+            android:layout_marginLeft="@dimen/margin_medium"
+            android:id="@+id/endDate"
+            android:layout_below="@+id/startDate"
+            android:layout_marginBottom="@dimen/margin_small"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/abc_text_size_caption_material"
+            android:text="N/A "
+            android:layout_marginTop="@dimen/margin_small"
+            android:textColor="@color/nliveo_white"
+            android:layout_toRightOf="@id/currentCompany"
+            android:layout_alignBottom="@id/currentCompany"
+            android:id="@+id/putcompany"
+            android:layout_below="@+id/ProffesionLabel"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/abc_text_size_caption_material"
+            android:text="N/A "
+            android:layout_marginTop="@dimen/margin_small"
+            android:textColor="@color/nliveo_white"
+            android:layout_toRightOf="@id/currentTitle"
+            android:layout_alignBottom="@id/currentTitle"
+            android:id="@+id/putTitle"
+            android:layout_below="@+id/putcompany"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/abc_text_size_caption_material"
+            android:text="N/A "
+            android:layout_marginTop="@dimen/margin_small"
+            android:textColor="@color/nliveo_white"
+            android:layout_toRightOf="@id/startDate"
+            android:layout_alignBottom="@id/startDate"
+            android:id="@+id/putstartDate"
+            android:layout_below="@+id/putTitle"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/abc_text_size_caption_material"
+            android:text="N/A "
+            android:layout_marginTop="@dimen/margin_small"
+            android:textColor="@color/nliveo_white"
+            android:layout_toRightOf="@id/endDate"
+            android:layout_alignBottom="@id/endDate"
+            android:id="@+id/putendDate"
+            android:layout_below="@+id/putstartDate"
+            />
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

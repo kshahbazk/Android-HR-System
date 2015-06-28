@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="@dimen/margin_small"
+        android:layout_marginTop="@dimen/margin_small"
+        android:layout_marginRight="@dimen/margin_small"
+        android:layout_marginBottom="@dimen/margin_small"
+        android:background="@color/nliveo_blue_gray_colorPrimaryDark"
+        android:id="@+id/edu">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_small"
+            android:text="Education"
+            android:textColor="@color/black"
+            android:textSize="@dimen/abc_text_size_subhead_material"
+            android:layout_marginLeft="@dimen/margin_medium"
+            android:id="@+id/EducationLabel"
+            />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:id="@+id/educationpic"
+            android:layout_marginLeft="@dimen/margin_small"
+            android:layout_alignBottom="@+id/EducationLabel"
+            android:layout_toRightOf="@+id/EducationLabel"
+            android:layout_toEndOf="@+id/EducationLabel"
+            android:src="@drawable/ic_school_black_48dp"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/abc_text_size_caption_material"
+            android:text="School: "
+            android:textColor="@color/nliveo_white"
+            android:layout_marginTop="@dimen/margin_small"
+            android:layout_marginLeft="@dimen/margin_medium"
+            android:id="@+id/school"
+            android:layout_below="@+id/EducationLabel"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/abc_text_size_caption_material"
+            android:text="Degree: "
+            android:layout_marginTop="@dimen/margin_small"
+            android:textColor="@color/nliveo_white"
+            android:layout_marginLeft="@dimen/margin_medium"
+            android:id="@+id/degree"
+            android:layout_below="@+id/school"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/abc_text_size_caption_material"
+            android:text="Graduation Year: "
+            android:layout_marginTop="@dimen/margin_small"
+            android:textColor="@color/nliveo_white"
+            android:layout_marginLeft="@dimen/margin_medium"
+            android:id="@+id/gradYear"
+            android:layout_below="@+id/degree"
+            android:layout_marginBottom="@dimen/margin_small"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/abc_text_size_caption_material"
+            android:text="N/A "
+            android:layout_marginTop="@dimen/margin_small"
+            android:textColor="@color/nliveo_white"
+            android:layout_toRightOf="@id/school"
+            android:layout_alignBottom="@id/school"
+            android:id="@+id/putschool"
+            android:layout_below="@+id/EducationLabel"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/abc_text_size_caption_material"
+            android:text="N/A "
+            android:layout_marginTop="@dimen/margin_small"
+            android:layout_toRightOf="@id/degree"
+            android:textColor="@color/nliveo_white"
+            android:layout_alignBottom="@id/degree"
+            android:id="@+id/putdegree"
+            android:layout_below="@+id/school"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/abc_text_size_caption_material"
+            android:text="N/A "
+            android:layout_marginTop="@dimen/margin_small"
+            android:layout_toRightOf="@id/gradYear"
+            android:textColor="@color/nliveo_white"
+            android:layout_alignBottom="@id/gradYear"
+            android:id="@+id/putGradYear"
+            android:layout_below="@+id/putdegree"/>
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/nliveo_blue_gray_colorPrimaryDark">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Edit Profile"
+        android:id="@+id/topSection"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margin_medium"
+        android:textColorHighlight="@color/nliveo_blue_gray_colorPrimary"
+        android:textColor="@color/nliveo_white"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottomSection"
+        android:layout_below="@+id/topSection"
+        android:background="@color/nliveo_blue_gray_colorPrimary"
+        android:layout_marginLeft="@dimen/margin_small"
+        android:layout_marginRight="@dimen/margin_small"
+        android:layout_marginTop="@dimen/margin_medium"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_small"
+            android:text="EDUCATION"
+            android:textColor="@color/black"
+            android:textSize="@dimen/abc_text_size_subhead_material"
+            android:layout_marginLeft="@dimen/margin_medium"
+            android:id="@+id/EducationLabel"
+            />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:id="@+id/educationpic"
+            android:layout_marginLeft="@dimen/margin_small"
+            android:layout_alignBottom="@+id/EducationLabel"
+            android:layout_toRightOf="@+id/EducationLabel"
+            android:layout_toEndOf="@+id/EducationLabel"
+            android:src="@drawable/ic_school_black_48dp"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/abc_text_size_body_1_material"
+            android:text="College: "
+            android:textColor="@color/nliveo_white"
+            android:layout_marginTop="@dimen/margin_small"
+            android:layout_marginLeft="@dimen/margin_medium"
+            android:id="@+id/school"
+            android:layout_below="@+id/EducationLabel"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/abc_text_size_body_1_material"
+            android:text="Degree: "
+            android:layout_marginTop="@dimen/margin_small"
+            android:textColor="@color/nliveo_white"
+            android:layout_marginLeft="@dimen/margin_medium"
+            android:id="@+id/degree"
+            android:layout_below="@+id/school"
+            />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/abc_text_size_body_1_material"
+            android:text="N/A "
+            android:layout_marginRight="@dimen/margin_medium"
+            android:layout_marginTop="@dimen/margin_small"
+            android:textColor="@color/nliveo_white"
+            android:layout_toRightOf="@id/school"
+            android:ems="12"
+            android:layout_alignBottom="@id/school"
+            android:id="@+id/putschool"
+            android:layout_below="@+id/EducationLabel"
+            />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/abc_text_size_body_1_material"
+            android:text="N/A "
+            android:layout_marginTop="@dimen/margin_small"
+            android:layout_toRightOf="@id/degree"
+            android:layout_marginRight="@dimen/margin_medium"
+            android:textColor="@color/nliveo_white"
+            android:layout_alignBottom="@id/degree"
+            android:id="@+id/putdegree"
+            android:layout_below="@+id/school"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Professional Experience"
+            android:textColor="@color/black"
+            android:textSize="@dimen/abc_text_size_subhead_material"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:layout_marginLeft="@dimen/margin_medium"
+            android:id="@+id/ProffesionLabel"
+            android:layout_below="@+id/degree"
+            />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:id="@+id/companypic"
+            android:src="@drawable/ic_domain_black_48dp"
+            android:layout_marginLeft="@dimen/margin_small"
+            android:layout_alignBottom="@+id/ProffesionLabel"
+            android:layout_toRightOf="@+id/ProffesionLabel"
+            android:layout_toEndOf="@+id/ProffesionLabel" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/abc_text_size_body_1_material"
+            android:text="Current Company: "
+            android:textColor="@color/nliveo_white"
+            android:layout_marginTop="@dimen/margin_small"
+            android:layout_marginLeft="@dimen/margin_medium"
+            android:id="@+id/currentCompany"
+            android:layout_below="@+id/ProffesionLabel"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/abc_text_size_body_1_material"
+            android:text="Current Locale: "
+            android:layout_marginTop="@dimen/margin_small"
+            android:textColor="@color/nliveo_white"
+            android:layout_marginLeft="@dimen/margin_medium"
+            android:id="@+id/currentLocale"
+            android:layout_below="@+id/currentCompany"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/abc_text_size_body_1_material"
+            android:text="Current Title: "
+            android:layout_marginTop="@dimen/margin_small"
+            android:textColor="@color/nliveo_white"
+            android:layout_marginLeft="@dimen/margin_medium"
+            android:id="@+id/currentTitle"
+            android:layout_below="@+id/currentLocale"
+            />
+
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/abc_text_size_body_1_material"
+            android:text="N/A "
+            android:layout_marginRight="@dimen/margin_medium"
+            android:layout_marginTop="@dimen/margin_small"
+            android:textColor="@color/nliveo_white"
+            android:layout_toRightOf="@id/currentCompany"
+            android:layout_alignBottom="@id/currentCompany"
+            android:id="@+id/putcompany"
+            android:layout_below="@+id/ProffesionLabel"
+            />
+
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/abc_text_size_body_1_material"
+            android:text="N/A "
+            android:layout_marginRight="@dimen/margin_medium"
+            android:layout_marginTop="@dimen/margin_small"
+            android:textColor="@color/nliveo_white"
+            android:layout_toRightOf="@id/currentLocale"
+            android:layout_alignBottom="@id/currentLocale"
+            android:id="@+id/putLocale"
+            android:layout_below="@+id/putcompany"
+            />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/abc_text_size_body_1_material"
+            android:text="N/A "
+            android:layout_marginRight="@dimen/margin_medium"
+            android:layout_marginTop="@dimen/margin_small"
+            android:textColor="@color/nliveo_white"
+            android:layout_toRightOf="@id/currentTitle"
+            android:layout_alignBottom="@id/currentTitle"
+            android:id="@+id/putTitle"
+            android:layout_below="@+id/putLocale"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Employment Prefences"
+            android:textColor="@color/black"
+            android:textSize="@dimen/abc_text_size_subhead_material"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:layout_marginLeft="@dimen/margin_medium"
+            android:id="@+id/employmentpreferences"
+            android:layout_below="@+id/currentTitle"
+            />
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:id="@+id/prefpic"
+            android:src="@drawable/ic_whatshot_black_48dp"
+            android:layout_marginLeft="@dimen/margin_small"
+            android:layout_alignBottom="@+id/employmentpreferences"
+            android:layout_toRightOf="@+id/employmentpreferences"
+            android:layout_toEndOf="@+id/employmentpreferences" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/abc_text_size_body_1_material"
+            android:text="Desired Locale: "
+            android:layout_marginTop="@dimen/margin_small"
+            android:layout_marginLeft="@dimen/margin_medium"
+            android:textColor="@color/nliveo_white"
+            android:id="@+id/desiredLocale"
+            android:layout_below="@+id/employmentpreferences"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/abc_text_size_body_1_material"
+            android:text="Desired Title: "
+            android:layout_marginTop="@dimen/margin_small"
+            android:layout_marginLeft="@dimen/margin_medium"
+            android:id="@+id/desiredTitle"
+            android:textColor="@color/nliveo_white"
+            android:layout_below="@+id/desiredLocale"
+            android:layout_marginBottom="@dimen/margin_small"
+            />
+
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/abc_text_size_body_1_material"
+            android:text="N/A "
+            android:layout_marginRight="@dimen/margin_medium"
+            android:layout_marginTop="@dimen/margin_small"
+            android:layout_toRightOf="@id/desiredLocale"
+            android:layout_alignBottom="@id/desiredLocale"
+            android:textColor="@color/nliveo_white"
+            android:id="@+id/putDesiredLocale"
+            android:layout_below="@+id/employmentpreferences"
+            />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/abc_text_size_body_1_material"
+            android:text="N/A "
+            android:layout_marginRight="@dimen/margin_medium"
+            android:layout_marginTop="@dimen/margin_small"
+            android:layout_toRightOf="@id/desiredTitle"
+            android:layout_alignBottom="@id/desiredTitle"
+            android:textColor="@color/nliveo_white"
+            android:id="@+id/putDesiredTitle"
+            android:layout_below="@+id/putDesiredLocale"
+            />
+    </RelativeLayout>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:layout_marginTop="@dimen/margin_medium"
+        android:id="@+id/saveButton"
+        android:layout_below="@+id/bottomSection"
+        android:layout_centerHorizontal="true"
+        android:background="@color/nliveo_blue_gray_colorPrimary"
+        />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@color/nliveo_blue_gray_colorPrimary"
+        android:text="Exit"
+        android:id="@+id/exitButton"
+        android:layout_below="@+id/saveButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margin_medium" />
+
+</RelativeLayout>

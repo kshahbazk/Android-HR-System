@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Orion-Centric</string>
+    <string name="profile">My Profile</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="lunch">Lunch Request</string>
+    <string name="csv">Send CSV</string>
+    <string name="more_markers">More</string>
+    <string name="feedback">Feedback</string>
+    <string name="rate">Rate Us</string>
+    <string name="settings">Settings</string>
+    <string name="add">Add</string>
+    <string name="search">Search</string>
+    <string name="important">My Connections</string>
+    <string name="documents">Friend Requests</string>
+    <string name="recruiter">Whats your position?</string>
+    <string name="parse_app_id">YOUR_PARSE_APP_ID</string>
+    <string name="parse_client_key">YOUR_PARSE_CLIENT_KEY</string>
+
+    <string-array name="recruiter_arrays">
+        <item>Recruiter</item>
+        <item>Job Seeker</item>
+    </string-array>
+
+    <!-- Toast -->
+    <string name="open_user_profile">Open user profile</string>
+    <string name="open_settings">Open settings</string>
+    <string name="drawer_open">Open drawer navigation</string>
+    <string name="drawer_close">Navigation drawer Close</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_parse_intailization">ParseIntailization</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="logout">logout</string>
+    <string name="profile_logo_content_description">Logo</string>
+    <string name="profile_title_logged_in">Your are logged in as</string>
+    <string name="profile_logout_button_label">Log out</string>
+    <string name="profile_title_logged_out">Welcome to Orion-Centric, please login to begin</string>
+    <string name="profile_login_button_label">Log in</string>
+    <string name="title_activity_list">ListActivity</string>
+    <string name="namelabel">"Name : "</string>
+    <string name="emaillabel">"Email : "</string>
+    <string name="positionlabel">"Position : "</string>
+    <string name="companylabel">"Company : "</string>
+    <string name="title_activity_user_profile_view">UserProfileView</string>
+    <string name="title_activity_acceptance">Accept of Deny</string>
+
+
+    <string name="profileImage">Profile Photo</string>
+    <string name="profileName">User Name</string>
+    <string name="company_label">Current Employer: </string>
+    <string name="position_label">Position: </string>
+    <string name="position_text">none specified</string>
+    <string name="education_label">Education: </string>
+    <string name="education_text">none-specified</string>
+    <string name="company_text">none-specified</string>
+    <string name="current_address_label">Current Address: </string>
+    <string name="current_address_text">none-specified</string>
+    <string name="desc_label">Description: </string>
+    <string name="desc_text">none-specified</string>
+    <string name="title_activity_edit_profile">Edit Profile</string>
+    <string name="title_activity_view_education">ViewEducationActivity</string>
+    <string name="title_activity_view_experience">ViewExperienceActivity</string>
+    <string name="title_activity_change_status">ChangeStatusActivity</string>
+
+
+    <!-- Spinners for Update Status-->
+    <string-array name="role_array">
+        <item> Analyst </item>
+        <item> QA Analyst </item>
+        <item> Team Lead </item>
+        <item> Play Auto </item>
+        <item> Escalations </item>
+        <item> DFF </item>
+        <item> Project Lead </item>
+        <item> Developer </item>
+        <item> PMO </item>
+        <item> Upper Leadership </item>
+        <item> Other </item>
+    </string-array>
+
+    <string-array name="lead_array">
+        <item> Sujin Kim </item>
+        <item> Harsh Soni </item>
+        <item> Emily Brown </item>
+        <item> Idil Jans </item>
+        <item> Olay La Paz </item>
+        <item> Ibeabuchi Imo </item>
+        <item> I am a Lead </item>
+    </string-array>
+
+
+    <string-array name="wave_array">
+        <item> Wave 1 </item>
+        <item> Wave 2 </item>
+        <item> Wave 3 </item>
+        <item> Wave 4 </item>
+        <item> Wave 5 </item>
+        <item> Wave 6 </item>
+        <item> Wave 7 </item>
+        <item> Wave 8 </item>
+        <item> Wave 9 </item>
+        <item> Other </item>
+    </string-array>
+
+    <string-array name="shift_array">
+        <item> 00:00-09:00 </item>
+        <item> 04:00-13:00 </item>
+        <item> 09:00-18:00 </item>
+        <item> 19:00-04:00 </item>
+        <item> 13:00-22:00 </item>
+        <item> 16:00-01:00 </item>
+        <item> 15:00-00:00 </item>
+        <item> 21:00-08:00 </item>
+        <item> 08:00-17:00 </item>
+        <item> 17:00-02:00 </item>
+        <item> 05:00-14:00 </item>
+        <item> 11:00-20:00 </item>
+        <item> 10:00-19:00 </item>
+        <item> 11:00-20:00 </item>
+        <item>Other</item>
+    </string-array>
+
+
+    <string name="version_number">Version 1.1</string>
+
+
+    <string name="title_activity_edit_info">EditInfoActivity</string>
+
+    <string name="roleSpinnerPrompt">Select your Role</string>
+    <string name="leadSpinnerPrompt">Select your Lead</string>
+    <string name="waveSpinnerPrompt">Select your Wave</string>
+    <string name="shiftSpinnerPrompt">Select your Shift</string>
+    <string name="title_activity_search_agent">SearchAgentActivity</string>
+    <string name="title_activity_angent_profile_view">AngentProfileView</string>
+    <string name="title_activity_orion_lunch_accpetance">OrionLunchAccpetance</string>
+    <string name="title_activity_orion_camera">OrionCameraActivity</string>
+    <string name="title_activity_android_camera">AndroidCameraActivity</string>
+
+
+
+
+
+
+
+
+</resources>

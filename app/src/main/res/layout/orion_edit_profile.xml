@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:background="#e8e8e8">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/selectRoleSpinner"
+        android:layout_marginTop="@dimen/margin_small"
+        android:background="@color/nliveo_white"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_medium"
+            android:textSize="@dimen/abc_text_size_subhead_material"
+            android:id="@+id/roleLabel"
+            android:text="Select Role: "
+            android:layout_marginTop="@dimen/margin_medium"
+            android:layout_marginBottom="@dimen/margin_medium"
+            />
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/selectRole"
+            android:layout_alignBottom="@id/roleLabel"
+            android:layout_toRightOf="@id/roleLabel"
+            android:prompt="@string/roleSpinnerPrompt"
+             />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/selectLeadSpinner"
+        android:layout_below="@+id/selectRoleSpinner"
+        android:layout_marginTop="2dp"
+        android:background="@color/nliveo_white"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_medium"
+            android:textSize="@dimen/abc_text_size_subhead_material"
+            android:id="@+id/leadLabel"
+            android:text="Select Lead: "
+            android:layout_marginTop="@dimen/margin_medium"
+            android:layout_marginBottom="@dimen/margin_medium"
+            />
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/leadLabel"
+            android:id="@+id/selectLead"
+            android:prompt="@string/leadSpinnerPrompt"
+            android:layout_toRightOf="@id/leadLabel"
+             />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/selectWaveSpinner"
+        android:layout_below="@+id/selectLeadSpinner"
+        android:layout_marginTop="2dp"
+        android:background="@color/nliveo_white"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_medium"
+            android:textSize="@dimen/abc_text_size_subhead_material"
+            android:id="@+id/waveLabel"
+            android:text="Select Wave: "
+            android:layout_marginTop="@dimen/margin_medium"
+            android:layout_marginBottom="@dimen/margin_medium"
+            />
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/waveLabel"
+            android:prompt="@string/waveSpinnerPrompt"
+            android:id="@+id/selectWave"
+            android:layout_toRightOf="@id/waveLabel"
+             />
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/selectShift"
+        android:layout_marginTop="2dp"
+        android:background="@color/nliveo_white"
+        android:layout_below="@id/selectWaveSpinner"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_medium"
+            android:textSize="@dimen/abc_text_size_subhead_material"
+            android:layout_marginBottom="@dimen/margin_medium"
+            android:id="@+id/entShiftLabel"
+            android:text="Enter Shift: "
+            android:layout_marginTop="@dimen/margin_medium"
+
+            />
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/entShiftLabel"
+            android:prompt="@string/waveSpinnerPrompt"
+            android:id="@+id/selectShiftSpinner"
+            android:layout_toRightOf="@id/entShiftLabel"
+             />
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/submitButton"
+        android:layout_marginTop="@dimen/margin_small"
+        android:background="@color/nliveo_white"
+        android:layout_below="@id/selectShift"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_medium"
+            android:textSize="@dimen/abc_text_size_subhead_material"
+            android:textColor="@color/materialbluedark"
+            android:text="Submit"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:layout_marginBottom="@dimen/margin_medium"
+            />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

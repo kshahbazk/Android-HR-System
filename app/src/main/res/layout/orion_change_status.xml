@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:background="#e8e8e8" android:fillViewport="true">
+<RelativeLayout
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lunchButton"
+        android:layout_marginTop="2dp"
+        android:background="@color/nliveo_white"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_medium"
+            android:textSize="@dimen/abc_text_size_subhead_material"
+            android:textColor="@color/materialbluedark"
+            android:text="On Lunch"
+
+            android:layout_marginTop="@dimen/margin_medium"
+            android:layout_marginBottom="@dimen/margin_medium"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/backfromLunchButton"
+        android:layout_marginTop="2dp"
+        android:background="@color/nliveo_white"
+        android:layout_below="@id/lunchButton"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_medium"
+            android:textSize="@dimen/abc_text_size_subhead_material"
+            android:textColor="@color/materialbluedark"
+            android:text="Back from lunch"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:layout_marginBottom="@dimen/margin_medium"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/breakButton"
+        android:layout_marginTop="2dp"
+        android:background="@color/nliveo_white"
+        android:layout_below="@id/backfromLunchButton"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_medium"
+            android:textSize="@dimen/abc_text_size_subhead_material"
+            android:textColor="@color/materialbluedark"
+            android:text="On Break"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:layout_marginBottom="@dimen/margin_medium"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/genQueueButton"
+        android:layout_marginTop="2dp"
+        android:background="@color/nliveo_white"
+        android:layout_below="@id/breakButton"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_medium"
+            android:textSize="@dimen/abc_text_size_subhead_material"
+            android:textColor="@color/materialbluedark"
+            android:text="In Gen Queue"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:layout_marginBottom="@dimen/margin_medium"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/dFFButton"
+    android:layout_marginTop="2dp"
+    android:background="@color/nliveo_white"
+    android:layout_below="@id/genQueueButton"
+    android:layout_centerHorizontal="true">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_medium"
+        android:textSize="@dimen/abc_text_size_subhead_material"
+        android:textColor="@color/materialbluedark"
+        android:text="In DFF queue"
+        android:layout_marginTop="@dimen/margin_medium"
+        android:layout_marginBottom="@dimen/margin_medium"
+        />
+
+</RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/autoButton"
+        android:layout_marginTop="2dp"
+        android:background="@color/nliveo_white"
+        android:layout_below="@id/dFFButton"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_medium"
+            android:textSize="@dimen/abc_text_size_subhead_material"
+            android:textColor="@color/materialbluedark"
+            android:text="Play Auto"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:layout_marginBottom="@dimen/margin_medium"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/specialButton"
+        android:layout_marginTop="2dp"
+        android:background="@color/nliveo_white"
+        android:layout_below="@id/autoButton"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_medium"
+            android:textSize="@dimen/abc_text_size_subhead_material"
+            android:textColor="@color/materialbluedark"
+            android:text="On Special Project"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:layout_marginBottom="@dimen/margin_medium"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/escalationsButton"
+        android:layout_marginTop="2dp"
+        android:background="@color/nliveo_white"
+        android:layout_below="@id/specialButton"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_medium"
+            android:textSize="@dimen/abc_text_size_subhead_material"
+            android:textColor="@color/materialbluedark"
+            android:text="In Escalations Queue"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:layout_marginBottom="@dimen/margin_medium"
+            />
+
+    </RelativeLayout>
+
+       <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tcButton"
+        android:layout_marginTop="2dp"
+        android:background="@color/nliveo_white"
+        android:layout_below="@id/escalationsButton"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_medium"
+            android:textSize="@dimen/abc_text_size_subhead_material"
+            android:textColor="@color/materialbluedark"
+            android:text="Training/Coaching"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:layout_marginBottom="@dimen/margin_medium"
+            />
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>
+
+
+    </ScrollView>

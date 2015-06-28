@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content" android:background="@color/nliveo_white"
+    android:layout_marginBottom="2dp"
+    android:layout_marginTop="2dp"
+    android:id="@+id/dashboard_item">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:textSize="@dimen/abc_text_size_title_material"
+        android:text="Full Name"
+        android:layout_marginTop="@dimen/margin_small"
+        android:layout_marginLeft="@dimen/margin_medium"
+        android:textColor="@color/materialblueprimary"
+        android:id="@+id/empInfo"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/abc_text_size_caption_material"
+        android:text="Time in: "
+        android:layout_marginLeft="@dimen/margin_medium"
+        android:id="@+id/timeinLabel"
+        android:layout_below="@+id/empInfo"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/abc_text_size_caption_material"
+        android:text="Time out: "
+        android:layout_marginLeft="@dimen/margin_medium"
+        android:id="@+id/timeoutLabel"
+        android:layout_below="@+id/timeinLabel"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/abc_text_size_caption_material"
+        android:text="Current Role: "
+        android:layout_marginLeft="@dimen/margin_medium"
+        android:id="@+id/lead"
+        android:layout_below="@+id/timeoutLabel"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/abc_text_size_caption_material"
+        android:text="Current Status: "
+        android:layout_marginLeft="@dimen/margin_medium"
+        android:id="@+id/wave"
+        android:layout_below="@+id/lead"
+        android:layout_marginBottom="@dimen/margin_small"
+        />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/abc_text_size_caption_material"
+        android:text="N/A "
+        android:layout_toRightOf="@id/timeinLabel"
+        android:layout_alignBottom="@id/timeinLabel"
+        android:id="@+id/puttimein"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/abc_text_size_caption_material"
+        android:text="N/A "
+        android:layout_toRightOf="@id/timeoutLabel"
+        android:layout_alignBottom="@id/timeoutLabel"
+        android:id="@+id/puttimeout"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/abc_text_size_caption_material"
+        android:text="N/A "
+        android:layout_toRightOf="@id/lead"
+        android:layout_alignBottom="@id/lead"
+        android:id="@+id/putRole"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/abc_text_size_caption_material"
+        android:text="N/A "
+        android:layout_toRightOf="@id/wave"
+        android:layout_alignBottom="@id/wave"
+        android:id="@+id/putStatus"
+
+
+        />
+
+
+
+
+
+</RelativeLayout>

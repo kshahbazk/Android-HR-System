@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/materialoffwhite"
+    >
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_small"
+        android:id="@+id/Agent"
+        android:background="@color/nliveo_white"
+        >
+
+        <TextView
+            android:id="@+id/namelabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LUNCH REQUEST FROM: "
+            android:textSize="@dimen/abc_text_size_subhead_material"
+            android:textColor="@color/materialblueprimary"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="@dimen/margin_small"
+            android:layout_marginTop="@dimen/margin_medium"
+            />
+
+        <TextView
+            android:id="@+id/nameLabel"
+            android:text="Name: "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/namelabel"
+            android:layout_marginLeft="@dimen/margin_small"
+
+            />
+        <TextView
+            android:id="@+id/timeLabel"
+            android:text="Time: "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_small"
+            android:layout_below="@+id/nameLabel"
+
+            />
+        <TextView
+            android:id="@+id/shiftLabel"
+            android:text="Shift: "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_small"
+            android:layout_below="@+id/timeLabel"
+            android:layout_marginBottom="@dimen/margin_medium"
+
+            />
+
+        <TextView
+            android:id="@+id/putname"
+            android:text="name"
+            android:textColor="@color/materialblueprimary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/nameLabel"
+            android:layout_alignBottom="@id/nameLabel"
+            android:layout_marginLeft="@dimen/margin_small"
+
+            />
+        <TextView
+            android:id="@+id/puttime"
+            android:text="time"
+            android:textColor="@color/materialblueprimary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/timeLabel"
+            android:layout_alignBottom="@id/timeLabel"
+            android:layout_marginLeft="@dimen/margin_small"
+
+
+            />
+        <TextView
+            android:id="@+id/putshift"
+            android:text="shift"
+            android:textColor="@color/materialblueprimary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/shiftLabel"
+            android:layout_alignBottom="@id/shiftLabel"
+            android:layout_marginLeft="@dimen/margin_small"
+
+
+            />
+
+
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Agent"
+        android:layout_marginTop="2dp"
+        android:background="@color/nliveo_white"
+        android:layout_centerHorizontal="true"
+        >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_small"
+        android:layout_marginTop="@dimen/margin_small"
+        android:layout_marginLeft="@dimen/margin_small"
+        android:text=" Accept "
+        android:textSize="@dimen/abc_text_size_subhead_material"
+        android:textColor="@color/materialblueprimary"
+        android:id="@+id/acceptbutton"
+
+         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  Deny  "
+        android:id="@+id/denybutton"
+        android:textSize="@dimen/abc_text_size_subhead_material"
+        android:layout_marginBottom="@dimen/margin_small"
+        android:layout_marginTop="@dimen/margin_small"
+        android:layout_marginLeft="@dimen/margin_large"
+        android:textColor="@color/materialblueprimary"
+        android:layout_toRightOf="@+id/acceptbutton"
+         />
+    </RelativeLayout>
+
+
+</RelativeLayout>

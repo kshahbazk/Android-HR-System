@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/materialoffwhite"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/nliveo_white"
+        android:layout_alignParentTop="true"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="@dimen/margin_medium"
+        android:id="@+id/timePickerlayout"
+        >
+
+
+        <TimePicker
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/timePicker"
+            android:layout_marginLeft="@dimen/margin_small"
+            android:layout_below="@+id/header"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select the time for your lunch"
+            android:textSize="@dimen/abc_text_size_title_material"
+            android:layout_marginLeft="@dimen/margin_small"
+            android:layout_marginTop="@dimen/margin_small"
+            android:layout_marginBottom="@dimen/margin_small"
+            android:id="@+id/header"
+            android:layout_alignParentTop="true"
+           />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/nliveo_white"
+        android:layout_marginTop="2dp"
+        android:id="@+id/submitButton"
+        android:layout_below="@+id/timePickerlayout"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:gravity="center_horizontal"
+            android:textColor="@color/materialblueprimary"
+            android:textSize="@dimen/abc_text_size_title_material"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="@dimen/margin_medium"
+            />
+
+
+        </RelativeLayout>
+
+</RelativeLayout>
+
+</ScrollView>

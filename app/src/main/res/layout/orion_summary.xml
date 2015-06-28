@@ -1,0 +1,340 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="momenify.proconnect.fragment.OrionSummary"
+    android:background="@color/materialoffwhite"
+    >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:id="@+id/topSection"
+        android:background="@color/nliveo_white"
+        android:layout_centerHorizontal="true">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_small"
+            android:layout_marginBottom="@dimen/margin_small"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/materialblueprimary"
+            android:textSize="@dimen/abc_text_size_subtitle_material_toolbar"
+            android:text="Orion Shift Summary"
+            android:id="@+id/textView" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="2dp"
+        android:layout_height="wrap_content"
+        android:background="@color/nliveo_white"
+        android:layout_below="@+id/topSection"
+        android:id="@+id/bottomSection">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textSize="@dimen/abc_text_size_subtitle_material_toolbar"
+            android:text="In Production Totals"
+            android:layout_marginLeft="@dimen/margin_medium"
+            android:layout_marginTop="@dimen/margin_small"
+
+            android:textColor="@color/nliveo_black"
+            android:id="@+id/timelog"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/abc_text_size_caption_material"
+            android:text="Total in production: "
+            android:layout_marginTop="@dimen/margin_small"
+            android:layout_marginLeft="@dimen/margin_medium"
+            android:id="@+id/currentStat"
+            android:layout_below="@+id/timelog"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/abc_text_size_caption_material"
+            android:text="In Generalist queue: "
+            android:layout_marginTop="@dimen/margin_small"
+            android:layout_marginLeft="@dimen/margin_medium"
+            android:id="@+id/lunch"
+            android:layout_below="@+id/currentStat"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/abc_text_size_caption_material"
+            android:text="In DFF queue: "
+            android:layout_marginTop="@dimen/margin_small"
+            android:layout_marginLeft="@dimen/margin_medium"
+            android:id="@+id/timein"
+            android:layout_below="@+id/lunch"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/abc_text_size_caption_material"
+            android:text="In Escalations queue: "
+            android:layout_marginTop="@dimen/margin_small"
+            android:layout_marginLeft="@dimen/margin_medium"
+            android:id="@+id/timeout"
+            android:layout_below="@+id/timein"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/abc_text_size_caption_material"
+            android:text="In Training/Coaching: "
+            android:layout_marginTop="@dimen/margin_small"
+            android:layout_marginLeft="@dimen/margin_medium"
+            android:id="@+id/inTrainingCoaching"
+            android:layout_below="@+id/timeout"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/abc_text_size_caption_material"
+            android:text="In Play Auto Queue: "
+            android:layout_marginTop="@dimen/margin_small"
+            android:layout_marginLeft="@dimen/margin_medium"
+            android:id="@+id/inPA"
+            android:layout_below="@+id/inTrainingCoaching"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/abc_text_size_caption_material"
+            android:text="On Special Project: "
+            android:layout_marginTop="@dimen/margin_small"
+            android:layout_marginLeft="@dimen/margin_medium"
+            android:id="@+id/onSpecial"
+            android:layout_below="@+id/inPA"
+            android:layout_marginBottom="@dimen/margin_medium"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/abc_text_size_caption_material"
+            android:text="N/A"
+            android:layout_marginTop="@dimen/margin_small"
+            android:layout_toRightOf="@id/currentStat"
+            android:layout_alignBottom="@id/currentStat"
+            android:id="@+id/putTotal"
+            android:layout_below="@+id/timelog"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/abc_text_size_caption_material"
+            android:text="N/A"
+            android:layout_marginTop="@dimen/margin_small"
+            android:layout_toRightOf="@id/lunch"
+            android:layout_alignBottom="@id/lunch"
+            android:id="@+id/putGenQueue"
+            android:layout_below="@+id/putStat"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/abc_text_size_caption_material"
+            android:text="N/A"
+            android:layout_marginTop="@dimen/margin_small"
+            android:layout_toRightOf="@id/timein"
+            android:layout_alignBottom="@id/timein"
+            android:id="@+id/putDffQueue"
+            android:layout_below="@+id/putlunch"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/abc_text_size_caption_material"
+            android:text="N/A"
+            android:layout_marginTop="@dimen/margin_small"
+            android:layout_toRightOf="@id/timeout"
+            android:layout_alignBottom="@id/timeout"
+            android:id="@+id/putEscalationsQueue"
+            android:layout_below="@+id/puttimein"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/abc_text_size_caption_material"
+            android:text="N/A"
+            android:layout_marginTop="@dimen/margin_small"
+            android:layout_toRightOf="@id/inTrainingCoaching"
+            android:layout_alignBottom="@id/inTrainingCoaching"
+            android:id="@+id/putTraingCoaching"
+            android:layout_below="@+id/puttimein"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/abc_text_size_caption_material"
+            android:text="N/A"
+            android:layout_marginTop="@dimen/margin_small"
+            android:layout_toRightOf="@id/inPA"
+            android:layout_alignBottom="@id/inPA"
+            android:id="@+id/putPa"
+            android:layout_below="@+id/puttimein"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/abc_text_size_caption_material"
+            android:text="N/A"
+            android:layout_marginTop="@dimen/margin_small"
+            android:layout_toRightOf="@id/onSpecial"
+            android:layout_alignBottom="@id/onSpecial"
+            android:id="@+id/putSpecial"
+            android:layout_below="@+id/puttimein"
+            />
+    </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bottomSection"
+            android:background="@color/nliveo_white"
+            android:layout_marginTop="2dp"
+            android:id="@+id/relativeLayout">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textSize="@dimen/abc_text_size_subhead_material"
+            android:text="Off Production Totals"
+            android:layout_marginLeft="@dimen/margin_medium"
+            android:layout_marginTop="@dimen/margin_small"
+
+            android:textColor="@color/nliveo_black"
+            android:id="@+id/empInfo"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/abc_text_size_caption_material"
+            android:text="Total off production: "
+            android:layout_marginTop="@dimen/margin_small"
+            android:layout_marginLeft="@dimen/margin_medium"
+            android:id="@+id/roleLabel"
+            android:layout_below="@+id/empInfo"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/abc_text_size_caption_material"
+            android:text="On Lunch: "
+            android:layout_marginTop="@dimen/margin_small"
+            android:layout_marginLeft="@dimen/margin_medium"
+            android:id="@+id/lead"
+            android:layout_below="@+id/roleLabel"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/abc_text_size_caption_material"
+            android:text="On Break: "
+            android:layout_marginTop="@dimen/margin_small"
+            android:layout_marginLeft="@dimen/margin_medium"
+            android:id="@+id/wave"
+            android:layout_below="@+id/lead"
+            android:layout_marginBottom="@dimen/margin_medium"
+            />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/abc_text_size_caption_material"
+            android:text="N/A"
+            android:layout_marginTop="@dimen/margin_small"
+            android:layout_toRightOf="@id/roleLabel"
+            android:layout_alignBottom="@id/roleLabel"
+            android:id="@+id/putTotalOff"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/abc_text_size_caption_material"
+            android:text="N/A"
+            android:layout_marginTop="@dimen/margin_small"
+            android:layout_toRightOf="@id/lead"
+            android:layout_alignBottom="@id/lead"
+            android:id="@+id/putLunch"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/abc_text_size_caption_material"
+            android:text="N/A"
+            android:layout_marginTop="@dimen/margin_small"
+            android:layout_toRightOf="@id/wave"
+            android:layout_alignBottom="@id/wave"
+            android:id="@+id/putBreak"
+
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayout"
+        android:layout_centerHorizontal="true"
+        android:background="@color/nliveo_white"
+        android:layout_marginTop="2dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/nliveo_black"
+            android:layout_marginBottom="@dimen/margin_small"
+            android:textSize="@dimen/abc_text_size_subtitle_material_toolbar"
+            android:text="Total on Shift: "
+            android:layout_marginTop="@dimen/margin_small"
+            android:layout_marginLeft="@dimen/margin_medium"
+            android:id="@+id/TotalLabel"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/nliveo_black"
+            android:textSize="@dimen/abc_text_size_subtitle_material_toolbar"
+            android:text="N/A"
+            android:layout_alignBottom="@+id/TotalLabel"
+            android:layout_toRightOf="@+id/TotalLabel"
+            android:id="@+id/TotalLabelput"
+            />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

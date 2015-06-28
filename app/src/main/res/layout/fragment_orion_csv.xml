@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="momenify.proconnect.fragment.OrionCsvFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/selectShiftForCsv"
+        android:layout_marginTop="@dimen/margin_small"
+        android:background="@color/nliveo_white"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_medium"
+            android:textSize="@dimen/abc_text_size_subhead_material"
+            android:id="@+id/roleLabel"
+            android:text="Select shift for CSV: "
+            android:layout_marginTop="@dimen/margin_medium"
+            android:layout_marginBottom="@dimen/margin_medium"
+            />
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/selectShift"
+            android:layout_alignBottom="@id/roleLabel"
+            android:layout_toRightOf="@id/roleLabel"
+            android:prompt="@string/roleSpinnerPrompt"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/submitButton"
+        android:layout_marginTop="@dimen/margin_small"
+        android:background="@color/nliveo_white"
+        android:layout_below="@id/selectShiftForCsv"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_medium"
+            android:textSize="@dimen/abc_text_size_subhead_material"
+            android:textColor="@color/materialbluedark"
+            android:text="Send CSV"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:layout_marginBottom="@dimen/margin_medium"
+            />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

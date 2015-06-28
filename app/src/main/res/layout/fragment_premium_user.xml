@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/nliveo_blue_gray_colorPrimaryDark"
+        >
+
+
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_small"
+            android:layout_marginLeft="@dimen/margin_small"
+            android:layout_marginRight="@dimen/margin_small"
+            android:orientation="vertical"
+            android:background="@color/nliveo_blue_gray_colorPrimaryDark"
+            tools:context="momenify.proconnect.fragment.FragmentPremiumUser"
+            android:layout_gravity="center_horizontal"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true">
+
+        <!-- TODO: Update blank fragment layout -->
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="@string/hello_blank_fragment"
+            android:id="@+id/premiumStatus"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/margin_large"
+            android:textSize="@dimen/abc_text_size_headline_material"
+            android:textColor="@color/nliveo_white"
+            />
+
+        <TextView
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Would you like to become a premium member?"
+            android:id="@+id/premiumMessage"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/nliveo_white"
+            android:textSize="@dimen/abc_text_size_subhead_material"
+            android:visibility="visible"
+            android:layout_marginTop="@dimen/margin_medium"
+            />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="200dp" android:layout_height="wrap_content"
+            android:text="Upgrade Premium"
+            android:id="@+id/upgradeButton"
+            android:textColor="@color/nliveo_white"
+            android:background="@color/nliveo_blue_gray_colorPrimary"
+            android:layout_gravity="center_horizontal"
+            android:visibility="visible"
+            android:layout_marginBottom="@dimen/margin_small"
+            android:layout_marginTop="@dimen/margin_small"
+            />
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+

@@ -1,0 +1,97 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/nliveo_blue_gray_colorPrimaryDark"
+    >
+    <com.astuetz.PagerSlidingTabStrip
+        android:id="@+id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/tab_layout_height"
+        android:background="@color/nliveo_blue_gray_colorPrimary"
+         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ProConnect"
+        android:id="@+id/textView2"
+        android:layout_marginLeft="@dimen/margin_large"
+        android:textColor="@color/nliveo_white"
+        android:textSize="@dimen/abc_text_size_headline_material"
+        android:layout_marginTop="13dp"
+        android:layout_alignParentTop="true"
+         />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageView2"
+        android:layout_below="@+id/tabs"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/mys"
+        android:layout_marginTop="@dimen/margin_large"
+        />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margin_large"
+        android:id="@+id/linearLayoutWrite">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Un"
+            android:text="Username "
+            android:textColor="@color/nliveo_white"
+            android:textSize="@dimen/abc_text_size_medium_material"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/connectmsg"
+            android:text=" would like to connect"
+            android:textColor="@color/nliveo_white"
+            android:textSize="@dimen/abc_text_size_medium_material"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linearLayoutWrite"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margin_large"
+        android:id="@+id/linearLayout">
+
+        <Button
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="Accept"
+            android:background="@color/nliveo_blue_gray_colorPrimary"
+            android:layout_marginRight="@dimen/margin_medium"
+            android:textColor="@color/nliveo_white"
+            android:id="@+id/acceptButton"
+            />
+
+        <Button
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="Deny"
+            android:background="@color/nliveo_blue_gray_colorPrimary"
+            android:textColor="@color/nliveo_white"
+            android:id="@+id/denyButton"
+            />
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>
