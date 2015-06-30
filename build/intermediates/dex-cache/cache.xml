@@ -2,53 +2,11 @@
 <items version="2" >
 
     <item
-        jar="/Users/shahbazkhan/Desktop/Orion-Centric/app/build/intermediates/exploded-aar/Orion-Centric/ParseLoginUI/unspecified/classes.jar"
+        jar="/Users/shahbazkhan/Desktop/Android-HR-System/app/build/intermediates/exploded-aar/Android-HR-System/ParseLoginUI/unspecified/classes.jar"
         jumboMode="false"
         revision="21.1.2"
-        sha1="78ae33bc913d39fc6a5975ef48dbe4cc95ef15bc">
-        <dex dex="/Users/shahbazkhan/Desktop/Orion-Centric/app/build/intermediates/pre-dexed/debug/classes-9b7c82d634dc7d8afa076a93622f6960482f99d5.jar" />
-    </item>
-    <item
-        jar="/Users/shahbazkhan/Desktop/Orion-Centric 2/app/build/intermediates/exploded-aar/br.com.liveo/navigationdrawer-material/1.0.3/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="e25dd0573f27c0d7d148349f85a038a0151a271b">
-        <dex dex="/Users/shahbazkhan/Desktop/Orion-Centric 2/app/build/intermediates/pre-dexed/debug/classes-eca60d5661c2e0e7690ef609e5c9f0c4e88e3f1d.jar" />
-    </item>
-    <item
-        jar="/Users/shahbazkhan/Desktop/Orion-Centric 2/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
-        <dex dex="/Users/shahbazkhan/Desktop/Orion-Centric 2/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-a2259908f48f704bfa7326d47e694cde63f6e61a.jar" />
-    </item>
-    <item
-        jar="/Users/shahbazkhan/Desktop/Orion-Centric 2/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
-        <dex dex="/Users/shahbazkhan/Desktop/Orion-Centric 2/app/build/intermediates/pre-dexed/debug/classes-471b6b53727a89d52cc5207d459f64a2768a4867.jar" />
-    </item>
-    <item
-        jar="/Users/shahbazkhan/Desktop/Orion-Centric 2/app/build/intermediates/exploded-aar/com.jpardogo.materialtabstrip/library/1.0.7/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="8d478eca18b7f0381ca218ec48f456ced7822ca9">
-        <dex dex="/Users/shahbazkhan/Desktop/Orion-Centric 2/app/build/intermediates/pre-dexed/debug/classes-861bf8a2048752d2ac6a84f3ede29edcd628805a.jar" />
-    </item>
-    <item
-        jar="/Users/shahbazkhan/Desktop/Orion-Centric 2/app/build/intermediates/exploded-aar/Orion-Centric 2/ParseLoginUI/unspecified/libs/Parse-1.8.0.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="61cf79e2775b882ac0ea32d60ea2dbbf6f245cea">
-        <dex dex="/Users/shahbazkhan/Desktop/Orion-Centric 2/app/build/intermediates/pre-dexed/debug/Parse-1.8.0-6c4b3a795233539aeee49870fae2daefcb4c4e29.jar" />
-    </item>
-    <item
-        jar="/Users/shahbazkhan/Desktop/Orion-Centric/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
-        <dex dex="/Users/shahbazkhan/Desktop/Orion-Centric/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-8daa06d2d37ea638bd6ee89725ea0549f496fcd7.jar" />
+        sha1="455e7d865ea4f4b037caeca514b701c48ec58df0">
+        <dex dex="/Users/shahbazkhan/Desktop/Android-HR-System/app/build/intermediates/pre-dexed/debug/classes-f3775af6332781113c9165dcc02b00183b6fff96.jar" />
     </item>
     <item
         jar="/Users/shahbazkhan/Desktop/Orion-Centric/app/build/intermediates/exploded-aar/com.jpardogo.materialtabstrip/library/1.0.7/classes.jar"
@@ -56,6 +14,62 @@
         revision="21.1.2"
         sha1="8d478eca18b7f0381ca218ec48f456ced7822ca9">
         <dex dex="/Users/shahbazkhan/Desktop/Orion-Centric/app/build/intermediates/pre-dexed/debug/classes-fa5b71ca52a471eb120cf2f8e58209eaca8b899a.jar" />
+    </item>
+    <item
+        jar="/Users/shahbazkhan/Desktop/Orion-Centric/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="/Users/shahbazkhan/Desktop/Orion-Centric/app/build/intermediates/pre-dexed/debug/classes-120e600dc02ff5e0a0e221f3e2640a0291573864.jar" />
+    </item>
+    <item
+        jar="/Users/shahbazkhan/Desktop/Android-HR-System/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/Users/shahbazkhan/Desktop/Android-HR-System/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-9c930b741692884ce8c2c1b58ecc6f34cdcdd724.jar" />
+    </item>
+    <item
+        jar="/Users/shahbazkhan/Desktop/Android-HR-System/app/build/intermediates/exploded-aar/Android-HR-System/ParseLoginUI/unspecified/libs/Parse-1.8.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="61cf79e2775b882ac0ea32d60ea2dbbf6f245cea">
+        <dex dex="/Users/shahbazkhan/Desktop/Android-HR-System/app/build/intermediates/pre-dexed/debug/Parse-1.8.0-56435e5957001d4651dd2c7d5fb67509f6f52496.jar" />
+    </item>
+    <item
+        jar="/Users/shahbazkhan/Desktop/Android-HR-System/app/build/intermediates/exploded-aar/br.com.liveo/navigationdrawer-material/1.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e25dd0573f27c0d7d148349f85a038a0151a271b">
+        <dex dex="/Users/shahbazkhan/Desktop/Android-HR-System/app/build/intermediates/pre-dexed/debug/classes-6ef055138dc70a600ec9406c1c2f5f4612a0fe5d.jar" />
+    </item>
+    <item
+        jar="/Users/shahbazkhan/Desktop/Android Tools/Android-SDK/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/Users/shahbazkhan/Desktop/Android-HR-System/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-6eb8f121a03a2bf83e06f70feb3091f2d4904333.jar" />
+    </item>
+    <item
+        jar="/Users/shahbazkhan/Desktop/Orion-Centric/app/build/intermediates/exploded-aar/Orion-Centric/ParseLoginUI/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="78ae33bc913d39fc6a5975ef48dbe4cc95ef15bc">
+        <dex dex="/Users/shahbazkhan/Desktop/Orion-Centric/app/build/intermediates/pre-dexed/debug/classes-9b7c82d634dc7d8afa076a93622f6960482f99d5.jar" />
+    </item>
+    <item
+        jar="/Users/shahbazkhan/Desktop/Android-HR-System/app/build/intermediates/exploded-aar/com.jpardogo.materialtabstrip/library/1.0.7/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="8d478eca18b7f0381ca218ec48f456ced7822ca9">
+        <dex dex="/Users/shahbazkhan/Desktop/Android-HR-System/app/build/intermediates/pre-dexed/debug/classes-1e3d78befbb4649e399b5f7a0d563513c556728f.jar" />
+    </item>
+    <item
+        jar="/Users/shahbazkhan/Desktop/Orion-Centric/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/Users/shahbazkhan/Desktop/Orion-Centric/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-8daa06d2d37ea638bd6ee89725ea0549f496fcd7.jar" />
     </item>
     <item
         jar="/Users/shahbazkhan/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.2.0/6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd/bolts-android-1.2.0.jar"
@@ -72,6 +86,13 @@
         <dex dex="/Users/shahbazkhan/Desktop/Orion-Centric/app/build/intermediates/pre-dexed/debug/Parse-1.8.0-e0d85c09a36bdc4ae234e6282e44075c5d045596.jar" />
     </item>
     <item
+        jar="/Users/shahbazkhan/Desktop/Android-HR-System/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/Users/shahbazkhan/Desktop/Android-HR-System/app/build/intermediates/pre-dexed/debug/classes-d08d6885a5abab4f408e505cd60a2a033777411f.jar" />
+    </item>
+    <item
         jar="/Users/shahbazkhan/Desktop/Orion-Centric/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
         jumboMode="false"
         revision="21.1.2"
@@ -79,25 +100,11 @@
         <dex dex="/Users/shahbazkhan/Desktop/Orion-Centric/app/build/intermediates/pre-dexed/debug/classes-91a92c4ae637fa02bbe3ee75067b6ffdc391f44d.jar" />
     </item>
     <item
-        jar="/Users/shahbazkhan/Desktop/Orion-Centric/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/classes.jar"
+        jar="/Users/shahbazkhan/Desktop/Android-HR-System/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
-        <dex dex="/Users/shahbazkhan/Desktop/Orion-Centric/app/build/intermediates/pre-dexed/debug/classes-120e600dc02ff5e0a0e221f3e2640a0291573864.jar" />
-    </item>
-    <item
-        jar="/Users/shahbazkhan/Desktop/Orion-Centric 2/app/build/intermediates/exploded-aar/Orion-Centric 2/ParseLoginUI/unspecified/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="5b105c432d4f6b1e7f58a90efa114810321c04e3">
-        <dex dex="/Users/shahbazkhan/Desktop/Orion-Centric 2/app/build/intermediates/pre-dexed/debug/classes-7f153f8da1b3df909ec5a62b104787086166c4d6.jar" />
-    </item>
-    <item
-        jar="/Users/shahbazkhan/Desktop/Orion-Centric 2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
-        <dex dex="/Users/shahbazkhan/Desktop/Orion-Centric 2/app/build/intermediates/pre-dexed/debug/classes-54beeb0f67bee7c356b647cbb8b07224694a6de7.jar" />
+        <dex dex="/Users/shahbazkhan/Desktop/Android-HR-System/app/build/intermediates/pre-dexed/debug/classes-e4999cf78808b4964450adfecfbce37ac056c679.jar" />
     </item>
     <item
         jar="/Users/shahbazkhan/Desktop/Orion-Centric/app/build/intermediates/exploded-aar/br.com.liveo/navigationdrawer-material/1.0.3/classes.jar"
@@ -105,13 +112,6 @@
         revision="21.1.2"
         sha1="e25dd0573f27c0d7d148349f85a038a0151a271b">
         <dex dex="/Users/shahbazkhan/Desktop/Orion-Centric/app/build/intermediates/pre-dexed/debug/classes-0384e34ed8224462576ca949ef453812136ce11f.jar" />
-    </item>
-    <item
-        jar="/Users/shahbazkhan/Desktop/Android Tools/Android-SDK/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
-        <dex dex="/Users/shahbazkhan/Desktop/Orion-Centric 2/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-6eb8f121a03a2bf83e06f70feb3091f2d4904333.jar" />
     </item>
 
 </items>

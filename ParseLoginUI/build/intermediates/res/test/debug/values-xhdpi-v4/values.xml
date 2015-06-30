@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/Users/shahbazkhan/Desktop/Orion-Centric%202/ParseLoginUI/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.21.1/res/values-xhdpi-v4/values.xml -->
+    <!-- From: file:/Users/shahbazkhan/Desktop/Android-HR-System/ParseLoginUI/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.21.1/res/values-xhdpi-v4/values.xml -->
     <eat-comment/>
     <dimen name="com_facebook_picker_divider_width">2px</dimen>
 </resources>
