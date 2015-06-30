@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="/Users/shahbazkhan/Desktop/Android-HR-System/ParseLoginUI/src/main/assets"/></dataSet><dataSet config="release"><source path="/Users/shahbazkhan/Desktop/Android-HR-System/ParseLoginUI/src/release/assets"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="/Users/shahbazkhan/Desktop/CampusConnect/ParseLoginUI/src/main/assets"/></dataSet><dataSet config="release"><source path="/Users/shahbazkhan/Desktop/CampusConnect/ParseLoginUI/src/release/assets"/></dataSet></merger>

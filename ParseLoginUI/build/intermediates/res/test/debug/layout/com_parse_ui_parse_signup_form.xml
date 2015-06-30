@@ -58,4 +58,4 @@
         android:text="@string/com_parse_ui_create_account_button_label" />
 
 </LinearLayout>
-<!-- From: file:/Users/shahbazkhan/Desktop/Android-HR-System/ParseLoginUI/res/layout/com_parse_ui_parse_signup_form.xml --><!-- From: file:/Users/shahbazkhan/Desktop/Android-HR-System/ParseLoginUI/build/intermediates/bundles/debug/res/layout/com_parse_ui_parse_signup_form.xml -->
+<!-- From: file:/Users/shahbazkhan/Desktop/CampusConnect/ParseLoginUI/res/layout/com_parse_ui_parse_signup_form.xml --><!-- From: file:/Users/shahbazkhan/Desktop/CampusConnect/ParseLoginUI/build/intermediates/bundles/debug/res/layout/com_parse_ui_parse_signup_form.xml -->
